@@ -1,0 +1,30 @@
+1. Set up React (npx create-react-app ideal-project-ai)
+2. Install Axios (npm install axios)
+3. Create .env file for environment variables
+4. Create 'components' directory inside src
+5. In App.js:
+    a. Import modules and components
+    b. Initialize state with useState
+    c. Defining the 'generateProjectIdea' function
+    d. Rendering the component (UI)
+    e. Export the component (export default App;)
+
+    Error: Error as the './component/ProjectForm' file was not exporting anything, but we were importing it in the App.js.
+    Solution: Render a basic component in ProjectForm and export the component.
+
+6. In ProjectForm.js:
+    a. Import modules
+    b. Define ProjectForm component
+    c. Handling Input changes
+    d. Handling Form Submission
+    e. Building the form
+    f. Export the component
+
+
+Errors: AxiosError, BadRequest 401
+Solution: Recheck if API KEY is correct (console log it)
+Restart the development server (CTRL+C, then npm start)
+Don't confuse '' with ``, ${} can only be used with `` (key above the Tab key on keyboard)
+Don't forget to remove the console.log(process.env.REACT_APP_OPENAI_API_KEY) in production
+
+Happy coding :)
