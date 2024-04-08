@@ -2,10 +2,121 @@
   text-align: center;
 }
 
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Card styles */
+.bg-white {
+  background-color: #fff;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-lg {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.18);
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Form Styles */
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; /* Responsive input field */
+  box-sizing: border-box; /* To include padding in width */
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #777;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
+
+/* Project Form Improvements */
+.ProjectForm {
+  margin-bottom: 20px;
+}
+
+.ProjectForm input {
+  font-size: 1.1em; /* Larger text for better readability */
+}
+
+/* Generated Project Idea Styles */
+.GeneratedProjectIdea {
+  margin-top: 30px;
+}
+
+.GeneratedProjectIdea h3 {
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+}
+
+.ProjectForm {
+  margin-bottom: 20px;
+}
+
+.ProjectForm input {
+  font-size: 1.2em; /* Increase the font size for better readability */
+  padding: 1em; /* Larger padding for a bigger field */
+}
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+/* Add margin to the bottom of each paragraph for the gap */
+.paragraph0, .paragraph1, .paragraph2, .paragraph3, div {
+  margin-bottom: 1.5em; /* You can adjust the value for larger or smaller gaps */
+  text-align: left;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

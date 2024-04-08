@@ -27,12 +27,7 @@ const ProjectForm = ({onSubmit}) =>{
             placeholder="Job Description"
             required
             />
-            <input
-            name="skills"
-            value={formData.skills}
-            onChange={handleChange}
-            placeholder="Skills"
-            required/>
+
             <button type="submit">Generate Project Idea</button>
         </form>
     );
