@@ -1,0 +1,13 @@
+const prompt = `
+  Generate a perfect project solving a real-world issue with respect to the job description. The project should make the candidate a strong hire for the company. It should demonstrate all the technical skills mentioned in the job description. Write in bullet points and as a step-by-step tutorial. Start with a project overview, then list the key features. Then, a detailed 10-step process. Use bullet points for details within each step. End with a list of tools and technologies used.
+
+  Format the response as follows:
+  - Begin with "Project Overview:" followed by a brief explanation.
+  - Next, list "Key Features:" of the project.
+  - Next, list "Steps" of the project
+  - List the tools and technologies used at the end under the heading "TOOLS & TECHNOLOGIES:" without any markdown or asterisks.
+  
+  Maintain this structure throughout the response. Avoid using markdown syntax for bold, and ensure each bullet point is on a new line.
+  Write in a copy-paste version. Don't make anything bold.
+  This is the job description: ${formData.jobDescription}
+  `;
